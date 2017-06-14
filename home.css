@@ -1,0 +1,41 @@
+.brand-logo{
+    font-family: 'Syncopate', sans-serif;
+    color:white;
+}
+li{
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+ html, body{
+    height: 100%;
+  }
+
+
+@media only screen and (max-width : 992px) {
+  .parallax img {
+    max-height: 130%; /* or a little bit higher */
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .parallax img {
+    max-height: 170%; /* or higher percentages. It's up to your taste */
+  }
+}
+
+.header{
+    color:#ff1744;
+    font-weight:300;
+}
+
+p{
+    font-family: 'Josefin Sans';
+    font-size:20px;
+}
+
+#ss {
+   background-color: white; 
+}
